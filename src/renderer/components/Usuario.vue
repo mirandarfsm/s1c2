@@ -8,7 +8,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr v-for="usuario in this.usuarios">
+    <tr v-for="(usuario, index) in this.usuarios" :key="index">
       <th>{{ usuario.nome }}</th>
       <td>{{ usuario.idade }}</td>
     </tr>

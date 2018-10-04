@@ -16,7 +16,10 @@ const mutations = {
   }
 }
 
-const usuarios = [ { nome: 'test', idade: 17 } ]
+const usuarios = [
+  { nome: 'test', idade: 17 },
+  { nome: 'test1', idade: 18 }
+]
 
 const actions = {
   createUser ({ commit }, usuarios) {
