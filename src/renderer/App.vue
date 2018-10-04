@@ -13,9 +13,9 @@
         </div>
         <div id="navMenu" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item" href="#">Home</a>
-            <a class="navbar-item" href="#">Orders</a>
-            <a class="navbar-item" href="#">Payments</a>
+            <router-link to="/" class="navbar-item">Home</router-link>
+            <router-link to="/usuarios" class="navbar-item">Usuario</router-link>
+            <router-link to="/count" class="navbar-item">Count</router-link>
             <a class="navbar-item" href="#">Exceptions</a>
           </div>
         </div>

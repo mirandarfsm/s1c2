@@ -16,6 +16,11 @@ export default new Router({
       component: require('@/components/Count').default
     },
     {
+      path: '/usuarios',
+      name: 'usuarios',
+      component: require('@/components/Usuario').default
+    },
+    {
       path: '*',
       redirect: '/'
     }
